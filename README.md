@@ -6,7 +6,7 @@ M19 - This repo is a single-page text editor application that meets PWA criteria
 
 ## Description
 
-The challenge is an On-the-job ticket/feature request Challenge (begin with starter code that you need to modify). The goal is to build the backend for an e-commerce site. The application will use a Express.js API and use Sequelize to interact with a MySQL database.
+The challenge is an On-the-job ticket/feature request Challenge (begin with starter code that you need to modify). The goal is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline. I will implement methods for getting and storing data to an IndexedDB database.
 
 The motivation behind this project is to create an API for a social network using the mentioned packages, tools, and technologies. The purpose of this project is to build the backend of a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. The user story and acceptance criteria are as follows:
 
