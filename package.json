@@ -1,0 +1,32 @@
+{
+  "name": "pwa-text-editor-kd",
+  "version": "1.0.0",
+  "description": "This is a text editor application that meets PWA criteria",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "",
+    "start": "",
+    "server": "",
+    "build": "",
+    "install": "",
+    "client": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevindimayuga/pwa-text-editor-kd.git"
+  },
+  "author": "Kevin Dimayuga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevindimayuga/pwa-text-editor-kd/issues"
+  },
+  "homepage": "https://github.com/kevindimayuga/pwa-text-editor-kd#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.18.2",
+    "idb": "^7.1.1",
+    "if-env": "^1.0.4",
+    "nodemon": "^3.0.1"
+  }
+}
