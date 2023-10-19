@@ -75,6 +75,8 @@ I used the following resources to help guide me to complete the portfolio projec
 
 I referred back to Module 19: PWA to review activities and the mini project to help me complete the code necessary for this project.
 
+Starter Code was provided by [cautious-meme](https://github.com/coding-boot-camp/cautious-meme/tree/main)
+
 ## License
 
 - [MIT](https://opensource.org/license/mit/)
