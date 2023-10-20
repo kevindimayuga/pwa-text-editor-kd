@@ -23,10 +23,25 @@ module.exports = () => {
         template: './index.html',
         title: 'Text Editor'
       }),
-      // InjectManifest will inject our custom service worker and manifest.json file
+      // InjectManifest will inject the custom service worker from src-sw.js
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
+      }),
+      // WebpackPwaManifest will generate our manifest.json file
+      new WebpackPwaManifest({
+        fingerprints: false,
+        // This injects the manifest.json file into the html file
+        inject: true,
+        name: 'Text Editor',
+        short_name: 'Text Editor',
+        // This sets the path to our index.html file
+        start_url: './',
+        // This sets the path to our assets
+        publicPath: './',
+        description: 'A simple text editor application to write anything you want!',
+        background_color: '#d2b48c',
+        theme_color: '#d2b48c',
       }),
     ],
 
