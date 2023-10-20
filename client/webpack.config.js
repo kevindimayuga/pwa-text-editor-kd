@@ -47,7 +47,25 @@ module.exports = () => {
 
     module: {
       rules: [
-        
+        // These are the CSS loaders that will be used to load CSS files
+        // Will match files that end in .css
+        {
+          test: /\.css$/i,
+          use: ['style-loader', 'css-loader'],
+        },
+        // Will match any file that ends in .js or .mjs
+        {
+          test: /\.m?js$/,
+          exclude: /node_modules/,
+          // Babel loader will change js code to be compatible with older browsers
+          use: {
+            loader: 'babel-loader',
+            options: {
+            presets: ['@babel/preset-env'],
+            plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+            },
+          },
+        },
       ],
     },
   };
