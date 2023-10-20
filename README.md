@@ -70,6 +70,9 @@ I used the following resources to help guide me to complete the portfolio projec
 - [Concurrently](https://www.npmjs.com/package/concurrently)
 - [if-env](https://www.npmjs.com/package/if-env)
 - [idb](https://www.npmjs.com/package/idb)
+- [style-loader](https://www.npmjs.com/package/style-loader)
+- [css-loader](https://www.npmjs.com/package/css-loader)
+- [babel-loader](https://www.npmjs.com/package/babel-loader)
 - [How to take a full page screenshot with a hidden Chrome shortcut](https://zapier.com/blog/full-page-screenshots-in-chrome/)
 
 
