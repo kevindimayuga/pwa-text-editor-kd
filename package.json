@@ -2,7 +2,7 @@
   "name": "pwa-text-editor-kd",
   "version": "1.0.0",
   "description": "This is a text editor application that meets PWA criteria",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && npm run dev\"",
