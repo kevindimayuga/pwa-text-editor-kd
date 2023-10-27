@@ -52,9 +52,8 @@ The following steps were taken to complete the project:
 
 - Clone repo onto local device
 - Open repo in local CLI
-- Make sure node packages are installed by running `npm i`
-- Run `npm run seed` in CLI to seed data
-- Run `npm run start` in CLI to start server
+- Make sure node packages are installed by running `npm i` in the CLI
+- Run `npm run start` in the CLI to start server
 - Test all routes using `Insomnia`
 
 ## Credits

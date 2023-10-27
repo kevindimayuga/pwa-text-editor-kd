@@ -36,12 +36,20 @@ module.exports = () => {
         name: 'Text Editor',
         short_name: 'Text Editor',
         // This sets the path to our index.html file
-        start_url: './',
+        start_url: '/',
         // This sets the path to our assets
-        publicPath: './',
+        publicPath: '/',
         description: 'A simple text editor application to write anything you want!',
         background_color: '#d2b48c',
         theme_color: '#d2b48c',
+        // This will add the icons to the manifest.json files
+        // icons: [
+        //   {
+        //     src: path.resolve('src/assets/icon.png'),
+        //     sizes: [96, 128, 192, 256, 384, 512],
+        //     destination: path.join('assets', 'icons'),
+        //   },
+        // ],
       }),
     ],
 
