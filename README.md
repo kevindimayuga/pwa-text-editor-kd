@@ -18,11 +18,8 @@ The motivation behind this project is to learn how to build a PWA that can be us
 
 ## Screenshots, GIFs and Videos
 
-- Since we will be creating the backend of a social network web application , you can use the following [LINK](https://drive.google.com/file/d/12K71wVXamgkQZXdQyrVQW4lwk1iUr7mI/view) to access a video walkthrough on how to use API to test the routes for the social network.
-    - [Social Network API Video Walkthrough](https://drive.google.com/file/d/12K71wVXamgkQZXdQyrVQW4lwk1iUr7mI/view)
-
-#### Insomnia Testing:
-![social network api screenshot](./assets/images/social-network-api-insomnia-route-testing.PNG)
+#### PWA Text Editor Screenshot:
+![PWA Text Editor Screenshot](./client/src/images/pwa-text-editor-kd-screenshot.png)
 
 ## Table of Contents
 
@@ -54,7 +51,11 @@ The following steps were taken to complete the project:
 - Open repo in local CLI
 - Make sure node packages are installed by running `npm i` in the CLI
 - Run `npm run start` in the CLI to start server
-- Test all routes using `Insomnia`
+    - This will run `npm run build && cd server && node server.js`
+- A dist folder will be created which will include a manifest.json and the src-sw.js files (along with all the other bundled files)
+- Open up [localhost:3000](localhost:3000) in the browser to view the text editor application
+- Click the 'Install' button in the address bar or on the home page to install the application to your local device
+- Use the text editor to write notes
 
 ## Credits
 
