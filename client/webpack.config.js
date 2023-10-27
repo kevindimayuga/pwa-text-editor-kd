@@ -43,13 +43,13 @@ module.exports = () => {
         background_color: '#d2b48c',
         theme_color: '#d2b48c',
         // This will add the icons to the manifest.json files
-        // icons: [
-        //   {
-        //     src: path.resolve('src/assets/icon.png'),
-        //     sizes: [96, 128, 192, 256, 384, 512],
-        //     destination: path.join('assets', 'icons'),
-        //   },
-        // ],
+        icons: [
+          {
+            src: path.resolve('src/images/logo.png'),
+            sizes: [96, 128, 192, 256, 384, 512],
+            destination: path.join('assets', 'icons'),
+          },
+        ],
       }),
     ],
 
