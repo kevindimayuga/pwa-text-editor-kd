@@ -14,7 +14,7 @@ The motivation behind this project is to learn how to build a PWA that can be us
 
 - GitHub Repo URL: https://github.com/kevindimayuga/pwa-text-editor-kd
 - GitHub Pages WebPage Deployment URL: N/A
-- Heroku Webpage Deployed URL: N/A
+- Heroku Webpage Deployed URL: https://pwa-text-editor-kd-46dfa260f9ab.herokuapp.com/
 
 ## Screenshots, GIFs and Videos
 
